@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+/* card 1 */
+.main {
+    border: 2px solid white;
+    width: 20%;
+    height: 100vh;
+    margin-left: 500px;
+    color: white;
+
+}
+
+/* 1st */
+.miles-away {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(59 153 213);
+    height: 110px;
+    padding-top: 10px;
+
+}
+
+.dp-content,
+.miles-away .locat span,
+.miles-away .locat i,
+.miles-away .bar,
+.miles-away .bar i,
+.miles-away .circle,
+.miles-away .circle i,
+.miles-away .dp {
+    background-color: rgb(59 153 213);
+}
+
+.miles-away .dp img {
+    width: 60px;
+    border-radius: 30px;
+}
+
+.miles-away .dp i {
+    position: relative;
+    bottom: 10px;
+    right: 20px;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.miles-away h1 {
+    font-size: 15px;
+    font-weight: 300;
+    background-color: rgb(59 153 213);
+    padding-left: 5px;
+    letter-spacing: 1px;
+}
+
+.miles-away .locat {
+    font-size: 8px;
+    background-color: rgb(59 153 213);
+}
+
+.miles-away .locat span {
+    color: rgb(201 201 201);
+}
+
+.miles-away .locat i {
+    font-size: 7px;
+}
+
+.miles-away .circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.miles-away .circle .circle-dot,
+.miles-away .circle .circle-dot span {
+    background-color: rgb(59 153 213);
+    font-size: 30px;
+    color: rgb(29 127 183);
+}
+
+.miles-away .circle .circle-dot span {
+    color: white;
+}
+
+/* 2nd */
+.lcc {
+    display: flex;
+    justify-content: space-arround;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.lcc,
+.lcc .lcc-content,
+.lcc .lcc-content h1,
+.lcc .lcc-content p {
+    background-color: white;
+}
+
+.lcc .lcc-content {
+    padding: 10px 20px;
+}
+
+.center {
+    flex-grow: 2;
+    border: 1px solid rgb(201 201 201);
+}
+
+.lcc .lcc-content h1 {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.lcc .lcc-content p {
+    color: rgb(201 201 201);
+    font-size: 10px;
+}
+
+/* 3rd */
+.see-more {
+    width: 100%;
+    background-color: white;
+    height: 35px;
+    border: 1px solid rgb(201 201 201);
+
+
+}
+
+.see-more .left {
+    background-color: rgb(59 153 213);
+    display: inline-block;
+    height: 35px;
+    text-align: justify;
+    vertical-align: top;
+    width: 60px;
+    padding-top: 5px;
+    text-align: center;
+
+
+
+
+}
+
+.see-more .left i {
+    background-color: rgb(59 153 213);
+    font-size: 15px;
+}
+
+.see-more .left .fa-solid {
+    color: rgb(12, 83, 124);
+    padding-left: 8px;
+    padding-top: 10px;
+    font-size: 12px;
+
+
+}
+
+.see-more .right {
+    max-width: 200px;
+    display: inline-block;
+    background-color: white;
+
+}
+
+.see-more .right p,
+.see-more .right p q {
+    background-color: white;
+    color: rgb(201 201 201);
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.see-more .right .s-m {
+    color: rgb(59 153 213);
+    /* text-align: end; */
+    font-size: 8px;
+    padding-left: 150px;
+    padding-top: 0px;
+
+}
+
+/* 4rth */
+.main .blank {
+    background-color: rgb(246 245 243);
+    width: 100%;
+    height: 10px;
+}
+
+/* 5th */
+.main .heading h1 {
+    background-color: white;
+    font-size: 15px;
+    height: 30px;
+    color: rgb(59 153 213);
+    text-align: center;
+    padding-top: 8px;
+    text-transform: capitalize;
+}
+
+/* 6th */
+.main .near-by {
+    height: 60px;
+    background-color: rgb(246 245 243);
+    display: flex;
+    align-items: center;
+    color: rgb(59 153 213);
+    border-bottom: 1px solid rgb(196, 190, 190);
+}
+
+.main .near-by p {
+    background-color: rgb(246 245 243);
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.main .near-by img,
+.main .near-by .message,
+.near-by .dp-locat {
+    width: 35px;
+    border-radius: 50%;
+    height: 35px;
+    border: 2px solid white;
+    margin-left: 8px;
+}
+
+.main .near-by .message,
+.near-by-2 .dp-locat {
+    background-color: rgb(59 153 213);
+    color: white;
+    text-align: center;
+    padding-bottom: 2px;
+    font-size: 20px;
+    margin-left: 8px;
+    border: 2px solid rgb(59 153 213);
+}
+
+/* 7th , 8th */
+
+.overlap {
+    position: relative;
+}
+
+.overlap .one {
+    position: absolute;
+    left: 120px;
+}
+
+.overlap .two {
+    position: absolute;
+    left: 140px;
+}
+
+.overlap .three {
+    position: absolute;
+    left: 160px;
+}
+
+.overlap .four {
+    position: absolute;
+    left: 180px;
+}
+
+.overlap .five {
+    position: absolute;
+    left: 200px;
+}
+
+.near-by-2 .message {
+    position: relative;
+    left: 80px;
+}
+
+.near-by-2 .dp-locat {
+    position: relative;
+    left: 80px;
+    border: 2px solid white;
+    width: 37px;
+    height: 37px;
+}
+
+.dp-locat #i-1 {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    background-color: rgb(59 153 213);
+    font-size: 14px;
+}
+
+.dp-locat #i-2 {
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    background: transparent;
+    font-size: 15px;
+}
+
+.near-by .maps {
+    font-size: 8px !important;
+    margin-top: 45px;
+    padding-left: 35px;
+
+}
+
+/*10 th  */
+.main,
+.main .btn,
+.main .btn button {
+    background-color: rgb(246 245 243);
+}
+
+.main .btn {
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: rgb(59 153 213) !important;
+    color: white;
+    border: 1px solid rgb(59 153 213);
+
+}
+
+/* 1st tAsk end */

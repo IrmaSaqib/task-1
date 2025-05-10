@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/* home page work start */
+.body {
+    background-color: pink;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 250px;
+    padding-top: 150px;
+
+}
+
+.main-box a {
+    text-decoration: none;
+    color: gray;
+    background-color: pink;
+    text-shadow: 1px 1px 5px red;
+    font-size: 30px;
+    border: 2px solid palevioletred;
+    outline: 2px solid goldenrod;
+    box-shadow: 1px 1px 30px black;
+    padding: 20px;
+    width: 200px;
+    border-radius: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: italic;
+
+}
+
+

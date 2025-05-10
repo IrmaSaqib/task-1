@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    background-color: #c7d6d9;
+
+}
+/*form work start */
+
+/* main container */
+.form-container {
+    height: 88vh;
+    width: 74%;
+    background-color: aliceblue;
+    border-radius: 5%;
+    box-shadow: inset 5px 5px 12px white, 0px 5px 12px -2px rgba(25, 39, 102, 0.247);
+    position: absolute;
+    top: 6%;
+    right: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* left side child */
+.left-content {
+    height: 95%;
+    width: 33%;
+    background-color: rgb(54, 76, 245);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* sub child one */
+.left-content .fleeso {
+    height: 10%;
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(54, 76, 245);
+}
+
+.left-content .fleeso p {
+    color: white;
+    font-size: xx-small;
+    letter-spacing: .12rem;
+    background-color: rgb(54, 76, 245);
+    text-transform: uppercase;
+}
+
+/* sub child two */
+.left-content .freelance-journey {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(54, 76, 245);
+
+}
+
+.left-content .freelance-journey h1 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.3rem;
+    background-color: rgb(54, 76, 245);
+    color: white;
+}
+
+.left-content .freelance-journey p {
+    background-color: rgb(54, 76, 245);
+    color: rgb(147, 160, 202);
+    font-size: 14px;
+}
+
+/*sub child three  */
+.left-content .freelance-crousel {
+    width: 90%;
+    /* background-color: #241df2 !important; */
+    background-color: #241df2 !important;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+
+.carousel,
+.carousel-item,
+.data .name {
+    background-color: #241df2 !important;
+
+}
+
+.carousel-item .para,
+.carousel-item .data p {
+    color: rgba(245, 245, 245, 0.795) !important;
+    font-size: 12px !important;
+    background-color: #241df2 !important;
+    margin-bottom: 1.5rem;
+}
+
+.carousel-item .data {
+    width: 70%;
+    height: 50px;
+    background-color: #241df2 !important;
+    display: flex;
+
+}
+
+.carousel-item .data img {
+    width: 25% !important;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.carousel-item .data .name {
+    margin-left: 20px;
+}
+
+.carousel-item .data h6 {
+    font-size: 10px;
+    color: white;
+    background-color: #241df2 !important;
+    margin-top: 0px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.carousel-indicators {
+    position: absolute !important;
+    top: 160px;
+    height: 20px;
+    background: transparent;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    border: 1px solid white !important;
+    background-color: #241df2 !important;
+
+}
+
+.carousel-indicators .active {
+    background-color: white !important;
+}
+
+/* right side child */
+.right-content {
+    height: 90%;
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    background-color: aliceblue;
+}
+
+.right-content .sign {
+    background-color: aliceblue;
+}
+
+.right-content .sign h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.right-content .sign p {
+    font-size: 12px;
+    background-color: aliceblue;
+}
+
+.right-content .sign p a {
+    background-color: aliceblue;
+    color: #241df2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.radio-main {
+    background-color: aliceblue;
+}
+
+.radio-main p,
+.right-content .heading {
+    font-size: 12px;
+    color: #999898;
+    background-color: aliceblue;
+}
+
+.radio-main .radio-input {
+    display: flex;
+    background-color: aliceblue;
+
+}
+
+.radio-main .radio-input .radio {
+    margin-right: 50px;
+    width: 40%;
+    border: 2px solid #999898;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    font-size: 12px;
+}
+
+.radio-main .radio input {
+    margin-right: 10px !important;
+}
+
+.radio-main .radio-input .radio:has(input:checked) {
+    border: 1px solid #241df2;
+    color: #241df2;
+}
+
+.right-content .box {
+    width: 90%;
+    border: 1px solid rgb(155 153 153);
+    padding: 12px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color:white;
+}
+.right-content .box:focus{
+    outline: none;
+}
+.right-content .create-account {
+    padding: 10px 25px;
+    border: 1px solid #3f39f6; 
+    background-color: #3f39f6 !important;
+    color: white;
+    font-size: 14px;
+    width: 30%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* form work end */
