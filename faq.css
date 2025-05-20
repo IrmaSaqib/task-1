@@ -1,0 +1,110 @@
+/* general designing */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/* faq work start */
+/* wrapper class present fixed layout  */
+.wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* main container work */
+.main-faq {
+    min-width: 80%;
+    min-height: 90vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 50px;
+    padding-bottom: 50px;
+}
+
+/* heading and  colour ful div work start */
+.heading-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-container .green {
+    width: 150px;
+    height: 180px;
+    background-color: rgb(134 255 115);
+    clip-path: circle(62.2% at 0 20%);
+}
+
+.heading-container .heading {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: -30px;
+    margin-top: 50px;
+
+}
+
+.heading-container .purple {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(151 71 255);
+    clip-path: polygon(100% 4%, 100% 22%, 0 94%, 0 39%);
+    position: relative;
+    top: 50px;
+    right: 0;
+
+}
+
+/* heading and  colour ful div work end */
+/* quest ans work start */
+.q-a-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    margin-top: -75px;
+
+}
+
+.quesAns {
+    background-color: hsl(25.71deg 36.84% 96.27%);
+    width: 100%;
+    padding: 20px;
+}
+
+.quesAns h3 {
+    position: relative;
+}
+
+.quesAns h3 span {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    border: .5px solid black;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 4px;
+}
+
+.quesAns h3 span .icon.active {
+    transform: rotate(180deg);
+}
+
+.quesAns .ans {
+    padding: 10px 40px 10px 10px;
+    font-size: 14px;
+    color: rgb(107, 100, 100);
+    display: none;
+}
+
+.quesAns .ans.active {
+    display: block;
+}
+
+/* quest ans work end */
+/* faq work end*/
